@@ -14,7 +14,7 @@ import { Pagination, Navigation } from "swiper/modules";
 import AboutSlide from './AboutSlide/AboutSlide';
 
 const About = () => {
-    return (<div className="About">
+    return (<div className="About" id='about'>
         <>
             <div className='aboutHeader'>
                 <span>ABOUT US</span>

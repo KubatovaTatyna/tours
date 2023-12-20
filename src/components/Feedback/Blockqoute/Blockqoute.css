@@ -46,6 +46,7 @@
 
 .person img {
     margin-right: 2rem;
+    border-radius: 50%;
 }
 
 .person h3 {

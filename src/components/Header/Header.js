@@ -9,12 +9,11 @@ const Header = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        height: '100vh',
     };
 
     return (
         <div className="Header">
-            <header style={headerStyle}>
+            <header style={headerStyle} className='parallax'>
                 <Nav />
                 <div className="parallax-content">
                     <span className="small-header-text">EXPLORE</span>
