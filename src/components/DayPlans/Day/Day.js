@@ -2,7 +2,7 @@ import season from '../../../images/season.svg';
 import './Day.css'
 
 const Day = () => {
-    return (<div className="Day">
+    return (<div className="Day mt-5 mb-5">
         <div className='backdrop'></div>
         <div className="day-header">
             <img src={season} alt='season' />

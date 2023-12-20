@@ -8,3 +8,14 @@
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.299);
     margin: 0 auto;
 }
+
+@media(max-width:600px) {
+
+    .d-location,
+    .d-season,
+    .d-duration,
+    .d-elevation {
+        max-width: 250px !important;
+        padding: 1.4rem;
+    }
+}

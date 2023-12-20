@@ -6,6 +6,8 @@ const DayPlans = () => {
         <div className="plans-container">
             <h1 className="text-center m-5">Day plans</h1>
             <Day />
+            <Day />
+            <Day />
         </div>
     </div> );
 }

@@ -7,7 +7,7 @@ import './Details.css'
 const Details = () => {
     return (<div className="Details text-center mb-5">
         <h1 className='mb-5 text-center'>Details</h1>
-        <div className="details-container container">
+        <div className="details-container container mt-5">
             <div className='row mb-5 w-75 m-auto'>
                 <div className="d-location col-xs-12 mb-5">
                     <img src={location} alt='location' className='w-25'/>
