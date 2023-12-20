@@ -1,5 +1,6 @@
 import PriceIncludes from "./PriceIncludes/PriceIncludes";
 import PriceNotIncludes from "./PriceNotIncludes/PriceNotIncludes";
+import './PriceIncludesContainer.css'
 
 const PriceInlcudesContainer = () => {
     return (<div className="PriceIncludesContainer row justify-content-between w-75 m-auto">
