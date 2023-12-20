@@ -42,9 +42,9 @@
 }
 
 @media(max-width:850px) {
-    /* .parallax {
+    .parallax {
         height: 90vh;
-    } */
+    }
     .parallax-content .main-header-text {
         font-size: 90px;
     }
@@ -54,9 +54,9 @@
 }
 
 @media(max-width:675px) {
-    /* .parallax {
+    .parallax {
         height: 80vh;
-    } */
+    }
     .parallax-content .main-header-text {
         font-size: 70px;
     }
