@@ -34,8 +34,8 @@ const Activities = () => {
             </div>
             <div className='slideContainer'>
                 <Swiper
-                    // slidesPerView = {5}
-                    // spaceBetween = {30}
+                    slidesPerView = {4}
+                    spaceBetween = {40}
                     breakpoints={{
                         230: {
                             slidesPerView: 1,
@@ -55,7 +55,7 @@ const Activities = () => {
                         }
                     }}
                     loop={true}
-                    loopFillGroupWithBlank={true}
+                    loopfillgroupwithblank={true}
                     navigation={true}
                     modules={[Pagination, Navigation]}
                     className="mySwiper"

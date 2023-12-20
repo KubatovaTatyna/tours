@@ -10,39 +10,19 @@ const tours = [
         tourId:"example1344545"
     },
     {
-        header:"hello",
+        header:"Exampple tour",
         aboutText:"Lorem Ipsum ",
-        tourId:"example345345"
-    },
-    {
-        header:"world",
-        aboutText:"Lorem Ipsum ",
-        tourId:"example434545"
-    },
-    {
-        header:"tatyna",
-        aboutText:"Lorem Ipsum ",
-        tourId:"dfgfdg"
-    },
-    {
-        header:"lkflskdf",
-        aboutText:"Lorem Ipsum ",
-        tourId:"dfgdf"
-    },
-    {
-        header:"hello",
-        aboutText:"Lorem Ipsum ",
-        tourId:"dfgdf"
+        tourId:"example1344545"
     },
     {
         header:"Exampple tour",
         aboutText:"Lorem Ipsum ",
-        tourId:"sdfsdf"
+        tourId:"example1344545"
     },
     {
         header:"Exampple tour",
         aboutText:"Lorem Ipsum ",
-        tourId:"example223sdfsd333"
+        tourId:"example1344545"
     }
 ]
 
