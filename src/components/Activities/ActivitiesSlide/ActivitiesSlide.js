@@ -1,12 +1,15 @@
+import { Link } from 'react-router-dom';
 import './ActivitiesSlide.css'
-const ActivitiesSlide = ({ slide }) => {
+const ActivitiesSlide = ({ slide, tour }) => {
     return (
         <div className='ActivitiesSlide'>
-            <img src={slide} alt='alt' />
-            <div className='slideText'>
-                <p>Hikking</p>
-                <span>230 activites</span>
-            </div>
+            <Link to={'/tours/' + tour.tourId}>
+                <img src={slide} alt='alt' />
+                <div className='slideText'>
+                    <p>{tour.header}</p>
+                    <span>{tour.aboutText}</span>
+                </div>
+            </Link>
         </div>);
 }
 

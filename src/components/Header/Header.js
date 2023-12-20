@@ -2,7 +2,8 @@ import Nav from "../Nav/Nav";
 import backgroundImage from '../../images/headerBackground.jpg';
 import './Header.css'
 
-const Header = () => {
+const Header = ({header}) => {
+    fetch('')
     const headerStyle = {
         backgroundImage: `url(${backgroundImage})`,
         backgroundAttachment: 'fixed',
@@ -19,7 +20,7 @@ const Header = () => {
                 <Nav />
                 <div className="parallax-content">
                     <span className="small-header-text">EXPLORE</span>
-                    <h1 className="main-header-text">KYRGYZSTAN</h1>
+                    <h1 className="main-header-text">{header}</h1>
                 </div>
             </header>
 

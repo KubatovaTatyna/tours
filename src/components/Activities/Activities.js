@@ -1,8 +1,8 @@
 import './Activities.css';
-import slide1 from '../../images/actSlide1.jpg';
+// import slide1 from '../../images/actSlide1.jpg';
 import slide2 from '../../images/actSlide2.jpg';
-import slide3 from '../../images/actSlide3.jpg';
-import slide4 from '../../images/actSlide4.jpg';
+// import slide3 from '../../images/actSlide3.jpg';
+// import slide4 from '../../images/actSlide4.jpg';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,8 +15,17 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import ActivitiesSlide from './ActivitiesSlide/ActivitiesSlide';
+import tours from '../../data/tours';
 
 const Activities = () => {
+
+    const tourItem = tours.map(tour => {
+       return (<SwiperSlide><ActivitiesSlide slide={slide2} key={tour.tourId} tour={tour}/></SwiperSlide>) 
+    })
+
+
+    console.log(tourItem)
+
     return (<div className="Activities">
         <>
             <div className='activitiesHeader'>
@@ -51,14 +60,7 @@ const Activities = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide><ActivitiesSlide slide={slide1} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide2} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide3} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide4} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide1} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide2} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide3} /></SwiperSlide>
-                    <SwiperSlide><ActivitiesSlide slide={slide4} /></SwiperSlide>
+                    {tourItem}
                 </Swiper>
             </div>
         </>
