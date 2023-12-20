@@ -9,7 +9,7 @@ const Header = ({header}) => {
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
+        backgroundSize: '100%',
         height:'100vh',
         width:'100vw'
     };
