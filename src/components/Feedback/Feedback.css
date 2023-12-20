@@ -1,0 +1,32 @@
+.Feedback {
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+
+.feedbackHeader {
+    text-align: center;
+}
+
+.feedbackHeader h1 {
+    font-size: 42px;
+    color: var(--black-color);
+}
+
+.feedbackHeader span {
+    font-size: 15px;
+    letter-spacing: .5rem;
+}
+
+.blockqouteContainer {
+    display: flex;
+    background-image: url('../../images/qouteBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

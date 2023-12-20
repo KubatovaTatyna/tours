@@ -1,0 +1,21 @@
+.Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 1rem;
+}
+
+.Nav .NavLink ul {
+    list-style-type: none;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav .NavLink ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}

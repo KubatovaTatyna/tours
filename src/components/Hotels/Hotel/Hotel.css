@@ -1,0 +1,22 @@
+.CardText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardImage {
+    width: 300px;
+}
+
+.CardText h2 {
+    margin: 0;
+}
+
+.Hotel {
+    margin: 0 1rem;
+}
+
+@media (max-width:740px) {
+    .CardImage {
+        width: 70vw;
+    }
+}

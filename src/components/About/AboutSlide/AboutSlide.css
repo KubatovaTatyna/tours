@@ -1,0 +1,32 @@
+.AboutSlide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.AboutSlide .slideText {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    text-align: start;
+}
+
+.AboutSlide .slideText p {
+    font-size: 27px;
+    margin: .2rem 0;
+    color: #fff;
+}
+
+.AboutSlide .slideText span {
+    color: #fff;
+    font-size: 14px;
+}
+
+@media(max-width: 640px) {
+    .AboutSlide .slideText {
+        bottom: 2rem;
+        left: 4rem;
+    }
+}

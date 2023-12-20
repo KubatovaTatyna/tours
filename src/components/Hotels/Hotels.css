@@ -1,0 +1,32 @@
+.Hotels {
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.HotelsCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.hotelsHeader {
+    text-align: center;
+}
+
+.hotelsHeader h1 {
+    font-size: 42px;
+    color: var(--black-color);
+}
+
+.hotelsHeader span {
+    font-size: 15px;
+    letter-spacing: .5rem;
+}
+
+@media(max-width:650px) {
+    .hotelsHeader h1 {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,62 @@
+.blockqouteCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.qoute {
+    position: relative;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 24px;
+    width: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2rem;
+    color: #000;
+}
+
+.qoute:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: 32px;
+    bottom: -24px;
+}
+
+/* .qoute:after {
+    content: open-quote;
+    top: 50px;
+    left: 30px;
+    font-size: 72px;
+    line-height: 72px;
+    position: absolute;
+  } */
+
+.person {
+    padding-top: 2rem;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.person img {
+    margin-right: 2rem;
+}
+
+.person h3 {
+    margin-bottom: .3rem;
+    margin-top: 0;
+}
+
+.person span {
+    font-size: 12px;
+}
+
+.Blockqoute {
+    margin: 1rem 1rem;
+}
