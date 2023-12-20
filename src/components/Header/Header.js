@@ -9,6 +9,8 @@ const Header = () => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
+        height:'100vh',
+        width:'100vw'
     };
 
     return (
