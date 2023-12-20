@@ -1,0 +1,17 @@
+.price {
+    max-width: 200px !important;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(34, 32, 26, 0.278);
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 3rem;
+}
+
+.Prices {
+    text-align: center;
+    margin: 5rem auto;
+}

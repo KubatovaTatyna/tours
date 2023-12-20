@@ -1,0 +1,12 @@
+.Day {
+    background-image: url('../../../images/qouteBackground.jpg');
+    padding: 2rem 5rem;
+    color: #fff;
+    max-width: 75%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.Day .backdrop {
+    background-color: rgba(0, 0, 0, 0.136);
+}

@@ -1,0 +1,10 @@
+.d-location,
+.d-season,
+.d-duration,
+.d-elevation {
+    max-width: 300px !important;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.299);
+    margin: 0 auto;
+}

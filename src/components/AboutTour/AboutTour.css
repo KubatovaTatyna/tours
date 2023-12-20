@@ -1,0 +1,13 @@
+.AboutTour {
+    max-width: 80%;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.AboutTour h1{
+    margin-bottom: 2rem;
+}
+
+.AboutTour p{
+    line-height: 1.5;
+}
