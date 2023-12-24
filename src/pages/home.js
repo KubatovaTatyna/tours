@@ -6,16 +6,21 @@ import home from "../data/home";
 import tours from "../data/tours";
 
 const Home = () => {
-    return ( <div className="Home">
-        <Header header={home.header}/>
-        {/* <Activities /> */}
-        {/* <About aboutUs={home.ourTeam}/> */}
-        {/* <OurTeam ourTeam={home.ourTeam}/> */}
-        <SliderComponent section={tours.tours}/>
-        <SliderComponent section={home.ourTeam}/>
+    return (<div className="Home">
+        <Header header={home.header}
+        backgroundImage={home.mainBackground}
+         />
+        <SliderComponent
+            section={tours.tours}
+            header={home.activitiesHeader} 
+            smallHeader={home.activitiesSmallText}/>
+        <SliderComponent
+            section={home.ourTeam}
+            header={home.ourTeamHeader}
+            smallHeader={home.ourTeamSmallText} />
         <Feedback />
         <Footer />
-    </div> );
+    </div>);
 }
- 
+
 export default Home;

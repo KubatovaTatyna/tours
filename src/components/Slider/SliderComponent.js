@@ -5,7 +5,7 @@ import 'react-multi-carousel/lib/styles.css';
 import Slide from './Slide/Slide';
 import './SliderComponent.css'; // Include your own styles
 
-const SliderComponent = ({ section, Component }) => {
+const SliderComponent = ({ section, header, smallHeader }) => {
 
   const responsive = {
     superLargeDesktop: {
@@ -27,14 +27,14 @@ const SliderComponent = ({ section, Component }) => {
   };
 
   const slides = section.map((item) => (
-    <Slide item={item} Component={Component}/>
+    <Slide item={item}/>
   ));
 
   return (
     <div className="Slider">
       <div className="sliderHeader">
-        <span>dkjnfkdmf</span>
-        <h1>dkfndkf</h1>
+        <span>{smallHeader}</span>
+        <h1>{header}</h1>
       </div>
       <div className="slideContainer">
         <Carousel responsive={responsive}>{slides}</Carousel>

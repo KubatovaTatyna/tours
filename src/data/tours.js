@@ -1,7 +1,9 @@
-import image from '../images/actSlide1.jpg'
+import image from '../images/actSlide1.jpg';
+import background from '../images/tour1background.jpg';
 
 const tours = {
     header: 'Tours',
+    mainBackground: background,
     tours: [
         {
             name: "ISSYK-KUL LAKE",

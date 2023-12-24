@@ -1,18 +1,7 @@
 import Nav from "../Nav/Nav";
-import backgroundImage from '../../images/headerBackground.jpg';
 import './Header.css'
 
-const Header = ({ header }) => {
-    fetch('')
-    // const headerStyle = {
-    //     backgroundImage: `url(${backgroundImage})`,
-    //     backgroundAttachment: 'fixed',
-    //     backgroundPosition: 'center',
-    //     backgroundRepeat: 'no-repeat',
-    //     backgroundSize: '100%',
-    //     height:'100vh',
-    //     width:'100vw'
-    // };
+const Header = ({ header, backgroundImage }) => {
 
     return (
         <div className="Header">

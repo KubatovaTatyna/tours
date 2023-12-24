@@ -13,3 +13,20 @@
 .react-multi-carousel-list {
     justify-content: center;
 }
+
+.sliderHeader {
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.sliderHeader h1 {
+    font-size: 42px;
+    color: var(--black-color);
+    margin-top: 1rem;
+}
+
+.sliderHeader span {
+    font-size: 14px;
+    letter-spacing: .8rem;
+}
