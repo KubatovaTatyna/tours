@@ -2,6 +2,7 @@ import Feedback from "../components/Feedback/Feedback";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import SliderComponent from "../components/Slider/SliderComponent";
+import Hotels from "../components/Hotels/Hotels";
 import home from "../data/home";
 import tours from "../data/tours";
 
@@ -18,6 +19,7 @@ const Home = () => {
             section={home.ourTeam}
             header={home.ourTeamHeader}
             smallHeader={home.ourTeamSmallText} />
+        <Hotels />
         <Feedback />
         <Footer />
     </div>);
