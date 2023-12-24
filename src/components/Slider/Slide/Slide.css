@@ -1,0 +1,15 @@
+.slide img {
+    width: 100%;
+}
+
+.slide {
+    margin: 0 1rem;
+}
+
+.slide-text {
+    position: relative;
+    bottom: 5rem;
+    left: 10px;
+    text-align: start;
+    color: #fff;
+}

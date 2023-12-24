@@ -1,34 +1,51 @@
-const tours = [
-    {
-       header:"ISSYK-KUL LAKE",
-       aboutText:"Lorem Ipsum",
-       tourId:"issyk-kul-lake"
-    },
-    {
-        header:"Exampple tour",
-        aboutText:"Lorem Ipsum ",
-        tourId:"example1344545"
-    },
-    {
-        header:"Exampple tour",
-        aboutText:"Lorem Ipsum ",
-        tourId:"example1344545"
-    },
-    {
-        header:"Exampple tour",
-        aboutText:"Lorem Ipsum ",
-        tourId:"example1344545"
-    },
-    {
-        header:"Exampple tour",
-        aboutText:"Lorem Ipsum ",
-        tourId:"example1344545"
-    }
-]
+import image from '../images/actSlide1.jpg'
 
-export function getTour(tourId) {
-    return tours[
-        tours.findIndex(tour => tour.tourId === tourId)
+const tours = {
+    header: 'Tours',
+    tours: [
+        {
+            name: "ISSYK-KUL LAKE",
+            title: "Lorem Ipsum",
+            itemId: "issyk-kul-lake",
+            image: image,
+        },
+        {
+            name: "ISSYK-KUL LAKE",
+            title: "Lorem Ipsum",
+            itemId: "issyk-kul-lake",
+            image: image,
+        },
+        {
+            name: "ISSYK-KUL LAKE",
+            title: "Lorem Ipsum",
+            itemId: "issyk-kul-lake",
+            image: image,
+        },
+        {
+            name: "ISSYK-KUL LAKE",
+            title: "Lorem Ipsum",
+            itemId: "issyk-kul-lake",
+            image: image,
+        },
+        {
+            name: "ISSYK-KUL LAKE",
+            title: "Lorem Ipsum",
+            itemId: "issyk-kul-lake",
+            image: image,
+        },
+        {
+            name: "ISSYK-KUL LAKE",
+            title: "Lorem Ipsum",
+            itemId: "issyk-kul-lake",
+            image: image,
+        },
+    ]
+}
+
+export function getTour(itemId) {
+    const tour = tours.tours
+    return tour[
+        tour.findIndex(tour => tour.itemId === itemId)
     ]
 }
 

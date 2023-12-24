@@ -1,10 +1,10 @@
 import NavLink from "./NavLink";
-import Logo from "../Logo";
 import './Nav.css'
+import Logo from "../Logo/Logo";
 
 const Nav = () => {
     return ( <nav className="Nav">
-        <Logo />
+        {/* <Logo /> */}
         <NavLink />
     </nav> );
 }

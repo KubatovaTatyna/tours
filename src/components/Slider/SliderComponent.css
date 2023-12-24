@@ -1,0 +1,15 @@
+/* MultiCarouselComponent.css */
+
+.slideContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.react-multi-carousel-dot-list {
+    bottom: -40px;
+    /* Adjust the position of the dot indicators */
+}
+
+.react-multi-carousel-list {
+    justify-content: center;
+}

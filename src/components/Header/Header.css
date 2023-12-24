@@ -1,15 +1,36 @@
 .parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
     height: 100vh;
+    overflow: hidden;
+    perspective: 1px; 
 }
 
-.parallax-content {
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    /* Place the content above the image */
     text-align: center;
-    padding-top: 17%;
+    padding: 20px;
     color: #fff;
+}
+
+/* Add a hover effect for demonstration */
+/* .parallax:hover .header-content {
+    transform: translateZ(100px);
+} */
+
+.parallax-content {
+    padding-top: 8rem;
 }
 
 .parallax-content .small-header-text {
@@ -27,6 +48,7 @@
     .parallax-content .main-header-text {
         font-size: 130px;
     }
+
     .parallax-content .small-header-text {
         font-size: 28px;
     }
@@ -36,6 +58,7 @@
     .parallax-content .main-header-text {
         font-size: 110px;
     }
+
     .parallax-content .small-header-text {
         font-size: 26px;
     }
@@ -45,9 +68,11 @@
     .parallax {
         height: 90vh;
     }
+
     .parallax-content .main-header-text {
         font-size: 90px;
     }
+
     .parallax-content .small-header-text {
         font-size: 22px;
     }
@@ -57,9 +82,11 @@
     .parallax {
         height: 80vh;
     }
+
     .parallax-content .main-header-text {
         font-size: 70px;
     }
+
     .parallax-content .small-header-text {
         font-size: 17px;
     }
@@ -69,6 +96,7 @@
     .parallax-content .main-header-text {
         font-size: 50px;
     }
+
     .parallax-content .small-header-text {
         font-size: 14px;
     }

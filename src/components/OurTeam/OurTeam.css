@@ -1,22 +1,22 @@
-.Activities {
+.OurTeam {
     padding-top: 5rem;
     position: relative;
     height: 100%;
 }
 
-.activitiesHeader {
+.ourTeamHeader {
     text-align: center;
     margin-bottom: 5rem;
     margin-top: 1rem;
 }
 
-.activitiesHeader h1 {
+.ourTeamHeader h1 {
     font-size: 42px;
     color: var(--black-color);
     margin-top: 1rem;
 }
 
-.activitiesHeader span {
+.ourTeamHeader span {
     font-size: 14px;
     letter-spacing: .8rem;
 }
@@ -33,7 +33,7 @@
     text-align: start;
 }
 
-.Activities img {
+.OurTeam img {
     height: 30rem;
 }
 
@@ -61,7 +61,7 @@
 }
 
 @media(max-width:650px) {
-    .activitiesHeader h1 {
+    .ourTeamHeader h1 {
         font-size: 25px;
     }
 }

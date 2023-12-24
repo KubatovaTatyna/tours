@@ -1,15 +1,13 @@
-import slide2 from '../../images/actSlide2.jpg';
-import ActivitiesSlide from './ActivitiesSlide/ActivitiesSlide';
-import tours from '../../data/tours';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './Activities.css';
+import './OurTeam.css';
+import OurTeamSlide from './OurTeamSlide/OurTeamSlide';
 
-const Activities = () => {
+const OurTeam = ({ourTeam}) => {
 
-    const tourItem = tours.map(tour => {
-        return (<ActivitiesSlide slide={slide2} key={tour.tourId} tour={tour} />)
+    const person = ourTeam.map(person => {
+        return (<OurTeamSlide slide={person.photo} key={person.personId} person={person} />)
     });
 
 
@@ -49,17 +47,17 @@ const Activities = () => {
         ]
     }
 
-    return (<div className="Activities">
+    return (<div className="OurTeam">
         <>
-            <div className='activitiesHeader'>
-                <span>HUNDREDS OF</span>
-                <h1>Activities for Everyoune</h1>
+            <div className='ourTeamHeader'>
+                <span>ABOUT US</span>
+                <h1>Our Team</h1>
             </div>
             <div className='slideContainer'>
-                <Slider {...sliderSettings}>{tourItem}</Slider>
+                <Slider {...sliderSettings}>{person}</Slider>
             </div>
         </>
     </div >);
 }
 
-export default Activities;
+export default OurTeam;

@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import './ActivitiesSlide.css'
-const ActivitiesSlide = ({ slide, tour }) => {
+const ActivitiesSlide = ({item}) => {
     return (
         <div className='ActivitiesSlide'>
-            <Link to={'/tours/' + tour.tourId}>
-                <img src={slide} alt='alt' />
-                <div className='slideText'>
-                    <p>{tour.header}</p>
-                    <span>{tour.aboutText}</span>
+            <Link to={'/tours/' + item.itemId}>
+                <img className="d-block w-100 slide-image" src={item.image} alt={item.title} />
+                <div className='slide-text'>
+                    <h3>{item.name}</h3>
+                    <p>{item.title}</p>
                 </div>
             </Link>
         </div>);
