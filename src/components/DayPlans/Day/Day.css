@@ -1,5 +1,5 @@
 .Day {
-    background-image: url('../../../images/qouteBackground.jpg');
+    background-image: url('../../../images/quoteBackground.jpg');
     padding: 2rem 5rem;
     color: #fff;
     max-width: 75%;
@@ -7,8 +7,30 @@
     border-radius: 15px;
 }
 
-.Day .backdrop {
-    background-color: rgba(0, 0, 0, 0.136);
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    perspective: 1px;
+}
+
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    /* Place the content above the image */
+    text-align: center;
+    padding: 20px;
+    color: #fff;
 }
 
 @media(max-width:750px) {
@@ -16,6 +38,7 @@
         padding: .9rem 2rem;
         max-width: 85%;
     }
+
     .day-header img {
         width: 50px;
     }

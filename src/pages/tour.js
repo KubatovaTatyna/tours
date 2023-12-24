@@ -6,14 +6,19 @@ import Footer from "../components/Footer/Footer"
 import Price from "../components/Price/Price";
 import PriceInlcudesContainer from "../components/PriceInclude/PriceIncludesContainer";
 import { useParams } from "react-router-dom";
-import tours, { getTour } from "../data/tours";
+import { getTour } from "../data/tours";
+import { useEffect } from "react";
 
 const Tour = () => {
     const params = useParams();
     const tour = getTour(params.tourId);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     return ( <div className="Tour">
-        <Header header={tour.name} backgroundImage={tours.mainBackground}/>
+        <Header header={tour.name} backgroundImage={tour.mainBackground}/>
         <AboutTour />
         <Details />
         <DayPlans />

@@ -13,14 +13,14 @@
     color: var(--black-color);
 }
 
-.feedbackHeader span {
+.hotelsHeader span {
     font-size: 15px;
     letter-spacing: .5rem;
 }
 
 .blockqouteContainer {
     display: flex;
-    background-image: url('../../images/qouteBackground.jpg');
+    background-image: url('../../images/quoteBackground.jpg');
     background-position: center;
     background-size: cover;
     width: 100%;

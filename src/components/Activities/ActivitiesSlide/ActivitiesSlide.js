@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './ActivitiesSlide.css'
-const ActivitiesSlide = ({item}) => {
+const ActivitiesSlide = ({ item }) => {
     return (
         <div className='ActivitiesSlide'>
             <Link to={'/tours/' + item.itemId}>
