@@ -1,6 +1,6 @@
-const PriceIncludes = () => {
+const PriceIncludes = ({included}) => {
     return ( <li className="PriceInclude">
-        Lorem
+        {included}
     </li> );
 }
  

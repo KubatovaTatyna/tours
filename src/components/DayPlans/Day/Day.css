@@ -1,7 +1,9 @@
 .Day {
-    background-image: url('../../../images/quoteBackground.jpg');
+    background-image: url('../../../images/season.jpg');
+    background-position: center;
+    background-size: cover;
     padding: 2rem 5rem;
-    color: #fff;
+    color: #000;
     max-width: 75%;
     margin: 0 auto;
     border-radius: 15px;
@@ -31,6 +33,12 @@
     text-align: center;
     padding: 20px;
     color: #fff;
+}
+
+.seasonImg {
+    width: 50px;
+    margin-right: .3rem;
+    margin-bottom: .2rem;
 }
 
 @media(max-width:750px) {

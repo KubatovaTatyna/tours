@@ -15,17 +15,28 @@ const Tour = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [])
+    }, []);
 
-    return ( <div className="Tour">
-        <Header header={tour.name} backgroundImage={tour.mainBackground}/>
-        <AboutTour />
-        <Details />
-        <DayPlans />
-        <Price />
-        <PriceInlcudesContainer />
+    return (<div className="Tour">
+        <Header header={tour.name} backgroundImage={tour.mainBackground} />
+        <AboutTour
+            tourHeader={tour.title}
+            aboutTour={tour.aboutTour}
+        />
+        <Details
+            highlights={tour.highlights}
+            duration={tour.duration}
+        />
+        <DayPlans
+            dayPlans={tour.dayPlans}
+        />
+        <Price prices={tour.price}/>
+        <PriceInlcudesContainer
+            included={tour.included}
+            excluded={tour.excluded}
+        />
         <Footer />
-    </div> );
+    </div>);
 }
- 
+
 export default Tour;

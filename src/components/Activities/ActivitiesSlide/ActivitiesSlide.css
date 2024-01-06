@@ -24,6 +24,10 @@
     font-size: 14px;
 }
 
+.ActivitiesSlide a{
+    text-decoration: none;
+}
+
 @media(max-width: 640px) {
     .slideText {
         bottom: 2rem;
