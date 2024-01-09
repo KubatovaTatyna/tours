@@ -2,10 +2,10 @@ import image1 from '../images/slide1.jpg';
 import image2 from '../images/slide2.jpg';
 import image3 from '../images/slide3.jpg';
 import image4 from '../images/slide4.jpg';
-// import image5 from '../images/slide5.jpg';
-// import image6 from '../images/slide6.jpg';
+import image5 from '../images/slide5.jpg';
+import image6 from '../images/slide6.jpg';
 // import background1 from '../images/tour1background.jpg';
-import background2 from '../images/tour2background.jpg';
+// import background2 from '../images/tour2background.jpg';
 import background3 from '../images/tour3background.jpg';
 import background4 from '../images/tour4background.jpg';
 
@@ -18,8 +18,15 @@ const tours = {
             itemId: 'nomadicLifestyle',
             image: image1,
             mainBackground: image1,
-            aboutTour: 'During the tour you will explore the amazing places of two Central Asian countries, you will visit the most beautiful lakes, picturesque canyons, majestic mountains of Kyrgyzstan and Kazakhstan. You will be able to immerse into the nomadic life, ride horses, watch eagle hunting demonstration, stay for overnight in a yurt, try Kyrgyz and Kazakh national cuisine. ',
-            highlights: 'Charyn Canyon, Kaindy Lake, The Lower Kolsay Lake, Saty Village in Kazakhstan, Karakol town, Karkyra Valley, Dungan Mosque, Holy Trinity Ortodox Church, Turgen Gorge, Jyrgalan Valley, Jeti-Oguz Gorge, Barskoon Gorge, Skazka Canyon, Son-Kul Lake, Chon-Kemin Valley, Kok-Moinok Canyon, Burana Tower, Bishkek city.',
+            aboutTour: 'During the tour, you will explore the amazing places of two Central Asian countries, you will visit the most beautiful lakes, picturesque canyons, majestic mountains of Kyrgyzstan and Kazakhstan. You will be able to immerse into the nomadic life, ride horses, watch eagle hunting demonstration, stay for overnight in a yurt, try Kyrgyz and Kazakh national cuisine.  ',
+            highlights: `Pick up from your hotel in Almaty city
+            Charyn Canyon "Valley of Castles"
+            Free time for walking and taking photos 
+            Lunch 
+            Saty Village 
+            Kaindy Lake
+            Free time for hiking or horseback riding to the lake 
+            Dinner and overnight at the guesthouse in Saty Village `,
             duration: '9 days/8 nights',
             dayPlans: [{
                 dayHeader: 'Day 1',
@@ -28,7 +35,7 @@ const tours = {
             {
                 dayHeader: 'Day 2',
                 dayAbout: `Breakfast 
-                Departure for Kolsay 1 Lake 
+                Departure for Kolsay 1 Lake
                 Free time for walking or taking a boat trip 
                 Departure for Karakol town 
                 Driving to Kegen border
@@ -36,31 +43,32 @@ const tours = {
                 Crossing the border into Kyrgyzstan
                 Driving to Karakol town
                 Dinner at the ethno restaurant in Karakol 
-                Overnight at a hotel.`
+                Overnight at a hotel in Karakol `
             },
             {
                 dayHeader: 'Day 3',
                 dayAbout: `Breakfast  
-                Visit Dungan Mosque and Holy Trinity Ortodox Church 
                 Purchase some food for a picnic at a market 
                 Departure for Turgen Gorge 
                 Picnic by the river at Turgen Gorge 
-                Free time for hiking and sightseeing 
-                Departure for Karakol town 
-                Dinner at a restaurant 
-                Overnight at a hotel.`
+                Free time for hiking 
+                Departure for Jyrgalan Valley 
+                Free time for walking and taking photos 
+                Dinner with a local family at Teploklyuchenka Village 
+                Ak-Suu  Kench hot springs 
+                Homestay `
             },
             {
                 dayHeader: 'Day 4',
                 dayAbout: `Breakfast 
-                Departure after breakfast 
+                Departure for Karakol Gorge 
+                Visit Karakol Ski Resort 
+                Lunch at Karakol town 
                 Visit a souvenir shop (optional)
-                Departure for Jyrgalan Valley 
-                Short stops for taking photos and sightseeing 
-                Picnic
-                Free time for walking or horseback riding 
-                Dinner with a local family 
-                Homestay `
+                Visit Dungan Mosque and Holy Trinity Ortodox Church  
+                Visit local bazaar 
+                Dinner at a restaurant in Karakol town 
+                Overnight at a hotel in Karakol `
             },
             {
                 dayHeader: 'Day 5',
@@ -73,17 +81,19 @@ const tours = {
                 Lunch
                 Departure for Skazka Canyon
                 Free time for short hiking and taking photos 
-                Departure for Ton Village  Dinner and overnight at the yurt camp near Issyk-Kul Lake `
+                Departure for Ton Village
+                Dinner and overnight at the yurt camp near Issyk-Kul Lake `
             },
             {
                 dayHeader: 'Day 6',
                 dayAbout: `Breakfast 
+                Eagle hunting show near Issyk-Kul Lake 
                 Departure for Son-Kul Lake
                 Driving to  Son-Kul  Lake through Kochkor Village and Kalmak-Ashuu Pass with stops for taking  photos
                 Picnic on the way 
                 Arrival at Son-Kul Lake
                 Free time for horse riding or walking 
-                Dinner and overnight at the yurt camp near Son-Kul Lake`
+                Dinner and overnight at the yurt camp near Son-Kul Lake `
             },
             {
                 dayHeader: 'Day 7',
@@ -144,7 +154,7 @@ const tours = {
                     price: '800$'
                 },
                 {
-                    priceHeader: '5-7 pax',
+                    priceHeader: '5-10 pax',
                     price: '600$'
                 },
             ]
@@ -153,8 +163,8 @@ const tours = {
             name: "WINTER TOUR",
             title: "Winter Tour",
             itemId: "winterTour",
-            image: image2,
-            mainBackground: background2,
+            image: image5,
+            mainBackground: image5,
             aboutTour: 'Kyrgyzstan is a stunning destination to visit all year round. Winter is a perfect time to visit Kyrgyzstan. Kyrgyzstan  becomes stunningly beautiful at that time of the year. The landscapes become incredibly majestic, trees are covered with a brilliant white blanket of snow. You can enjoy skiing, snowboarding and horseback riding. Kyrgyzstan is also popular for its natural hot springs, they  are very beneficial for health. While you can enjoy them all year round, they are particularly pleasant in winter for relaxing in hot water after skiing or spending time in the mountains.',
             highlights: 'Bishkek city, Ala-Archa National Park, Burana Tower, Chon-Kemin Valley, Kok-Moinok  Canyon, Bokonbayevo Village,  Skazka Canyon, Barskoon Gorge, Jeti-Oguz Gorge, Karakol town, Karakol Gorge, Karakol Ski Resort, Ak-Suu Kench hot springs, Jyrgalan Valley.',
             duration: '6 days/5 nights',
@@ -252,7 +262,7 @@ const tours = {
                     price: '565$'
                 },
                 {
-                    priceHeader: '5-7 pax',
+                    priceHeader: '5-10 pax',
                     price: '465$'
                 },
             ]
@@ -355,7 +365,7 @@ const tours = {
                     price: '550$'
                 },
                 {
-                    priceHeader: '5-7 pax',
+                    priceHeader: '5-10 pax',
                     price: '450$'
                 },
             ]
@@ -437,8 +447,204 @@ const tours = {
                     price: '480$'
                 },
                 {
-                    priceHeader: '5-7 pax',
+                    priceHeader: '5-10 pax',
                     price: '380$'
+                },
+            ]
+        },
+        {
+            name: "Extended Weekend Getway",
+            title: "Extended Weekend Getaway ",
+            itemId: "weekendGetaway",
+            image: image2,
+            mainBackground: image2,
+            aboutTour: `Join an incredible 4-day adventure to uncover the hidden treasures of Bishkek city, Chunkurchak Gorge and Ala-Archa National Park. Your journey will lead you to an ancient Burana minaret, lush alpine meadows and majestic mountains of Kyrgyzstan. 
+            You will experience a  horseback riding and try delicious Kyrgyz national cuisine. 
+            Don't miss this unforgettable experience!`,
+            highlights: `Bishkek city, 
+            Chon-Kemin Valley, 
+            Chunkurchak Gorge, 
+            Ala-Archa National Park `,
+            duration: '4 days/3 nights',
+            dayPlans: [{
+                dayHeader: 'Day 1',
+                dayAbout: `Pick up from the Manas International Airport 
+                Departure for Bishkek 
+                Kyrgyz National Philharmonic 
+                Statue of Manas
+                Victory Square 
+                Lunch
+                Opera and Ballet Theater 
+                Oak Park
+                The National Historical Museum 
+                Open Air Art Gallery 
+                Dinner at a restaurant in Bishkek
+                Overnight at a hotel in Bishkek `
+            },
+            {
+                dayHeader: 'Day 2',
+                dayAbout: `Breakfast 
+                Departure for Chon-Kemin Valley 
+                Visit Burana Tower 
+                Lunch
+                Arrival at Chon-Kemin Valley 
+                Free time for hiking or horseback riding 
+                Dinner and overnight at the guesthouse `
+            },
+            {
+                dayHeader: 'Day 3',
+                dayAbout: `Breakfast 
+                Departure for Chunkurchak Gorge 
+                Lunch 
+                Free time for walking and  exploring Chunkurchak Gorge 
+                Dinner at a restaurant in Bishkek 
+                Overnight at a hotel in Bishkek `
+            },
+            {
+                dayHeader: 'Day 4',
+                dayAbout: `Breakfast 
+                Departure for Ala-Archa National Park 
+                Free time for hiking 
+                Lunch
+                Departure for Bishkek
+                Transfer to the airport`
+            }
+            ],
+            included: ['Transfer in air-conditioned and comfortable vehicle',
+                'Airport transfer',
+                'Experienced driver-guide',
+                'Accommodation ',
+                '3 Breakfast',
+                '2 Dinner ',
+                'Entrance fee to Burana Tower ',
+            ],
+            excluded: ['International flights',
+                'Insurance',
+                'Lunch meals',
+                'Dinner at restaurants ',
+                'Renting horses ',
+                'Personal expenses',
+            ],
+            price: [
+                {
+                    priceHeader: '2 pax',
+                    price: '430$'
+                },
+                {
+                    priceHeader: '3-4 pax',
+                    price: '350$'
+                },
+                {
+                    priceHeader: '5-10 pax',
+                    price: '280$'
+                },
+            ]
+        },
+        {
+            name: "Ala-Köl Lake ",
+            title: "Ala-Köl Lake ",
+            itemId: "alakollake",
+            image: image6,
+            mainBackground: image6,
+            aboutTour: `Ala-Köl Lake is one of the most beautiful lakes of Kyrgyzstan. It is situated at the altitude of 3532 meters. It is the most popular trekking route in Kyrgyzstan. 
+            During this trip, you will visit Issyk-Kul Lake - the pearl of Central Asia, the most picturesque Kok-Moinok and Skazka Canyons, experience horseback riding and watch eagle hunting demonstration.`,
+            highlights: `Bishkek city, 
+            Burana Tower,
+            Chon-Kemin Valley, 
+            Kok-Moinok  Canyon, 
+            Ton Village,  
+            Skazka Canyon, 
+            Barskoon Gorge, 
+            Jeti-Oguz Gorge, 
+            Karakol town, 
+            Teploklyuchenka Village, 
+            Altyn-Arashan Gorge, 
+            Ala-Kol Lake.`,
+            duration: '5 days/4 nights',
+            dayPlans: [{
+                dayHeader: 'Day 1',
+                dayAbout: `Pick up from the Manas International Airport 
+                Departure for Bishkek 
+                Ala-Too Square 
+                Lunch 
+                Burana Tower 
+                Chon-Kemin Valley 
+                Free time for hiking or horseback riding 
+                Dinner and overnight at the guesthouse  `
+            },
+            {
+                dayHeader: 'Day 2',
+                dayAbout: `Breakfast 
+                Departure for  Kok-Moinok Canyon 
+                Lunch on the way 
+                Driving along the southern shore of Issyk-Kul Lake 
+                Arrival at Ton Village 
+                Eagle hunting show near Issyk-Kul Lake 
+                Dinner and overnight at the yurt camp near Issyk-Kul Lake `
+            },
+            {
+                dayHeader: 'Day 3',
+                dayAbout: `Breakfast 
+                Skazka Canyon 
+                Barskoon Gorge (hiking to waterfalls)
+                Lunch 
+                Jeti-Oguz Gorge 
+                Departure for Karakol town 
+                Dinner at the ethno-restaurant in Karakol 
+                Departure for Teploklyuchenka Village 
+                Homestay `
+            },
+            {
+                dayHeader: 'Day 4',
+                dayAbout: `Breakfast
+                Driving  2 hours to  Altyn-Arashan hot springs by UAZ (Russian off-road vehicle)
+                Renting horses to go to Ala-Kol Lake 
+                Picnic on the way 
+                Arrival at Teploklyuchenka Village in the evening  
+                Dinner with a local family 
+                Homestay `
+            },
+            {
+                dayHeader: 'Day 5',
+                dayAbout: `Breakfast 
+                Departure for Karakol town 
+                Visit Dungan Mosque and Holy Trinity Ortodox Church 
+                Departure  for Bishkek 
+                Driving along the northern shore of Issyk-Kul Lake 
+                Lunch on the  way 
+                Transfer to the airport `
+            }
+            ],
+            included: ['Transfer in air-conditioned and comfortable vehicle',
+                'Airport transfer',
+                'Experienced driver-guide',
+                'Accommodation ',
+                '4 Breakfast',
+                '3 Dinner ',
+                'Entrance fee to Burana Tower ',
+                'UAZ (Russian off-road vehicle) to go to Altyn-Arashan hot springs ',
+                'Horses and a guide to go to Ala-Kol Lake ',
+                'Eagle hunting show',
+            ],
+            excluded: ['International flights',
+                'Insurance',
+                'Lunch meals',
+                'Dinner at restaurants ',
+                'Renting horses ',
+                'Personal expenses',
+            ],
+            price: [
+                {
+                    priceHeader: '2 pax',
+                    price: '690$'
+                },
+                {
+                    priceHeader: '3-4 pax',
+                    price: '550$'
+                },
+                {
+                    priceHeader: '5-10 pax',
+                    price: '420$'
                 },
             ]
         }

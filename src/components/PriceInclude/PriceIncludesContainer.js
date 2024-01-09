@@ -10,14 +10,14 @@ const PriceInlcudesContainer = ({included, excluded}) => {
         return <PriceNotIncludes excluded={e}/>
     });
     return (<div className="PriceIncludesContainer row justify-content-between w-75 m-auto">
-        <div className="PriceIncludes col-6">
-            <h1>Price includes:</h1>
+        <div className="PriceIncludes col-sm-6 col-xs-12">
+            <h1>What's Included:</h1>
             <ul>
                 {priceIncluded}
             </ul>
         </div>
-        <div className="PriceNotIncludes col-6">
-            <h1>Price not includes:</h1>
+        <div className="PriceNotIncludes col-sm-6 col-xs-12">
+            <h1>What's excluded:</h1>
             <ul>
                 {priceNotIncluded}
             </ul>

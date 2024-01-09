@@ -8,7 +8,7 @@ const Day = ({day}) => {
             <img src={season} alt='season' className='seasonImg'/>
             <span className='day-head'>{day.dayHeader}</span>
         </div>
-        <div className='day-body'>
+        <div className='day-body new-line'>
             <p>{day.dayAbout}</p>
         </div>
     </div>);

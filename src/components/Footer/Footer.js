@@ -1,9 +1,11 @@
 import './Footer.css';
 
 const Footer = () => {
+    const date = new Date();
+    const year = date.getFullYear();
     return (<div className='Footer'>
         <hr />
-        <div>Copyright 2022</div>
+        <div>Copyright {year}</div>
     </div>);
 }
 

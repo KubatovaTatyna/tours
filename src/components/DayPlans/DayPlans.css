@@ -1,3 +1,11 @@
 .DayPlans {
     margin-top: 8rem;
 }
+
+.days-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

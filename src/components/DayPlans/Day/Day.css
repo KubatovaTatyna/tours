@@ -1,10 +1,11 @@
 .Day {
-    background-image: url('../../../images/season.jpg');
+    background-image: url('../../../images/quoteBg.jpg');
     background-position: center;
     background-size: cover;
-    padding: 2rem 5rem;
+    /* background-color: rgba(1, 62, 89, 0.834); */
+    padding: 1rem 3rem;
     color: #000;
-    max-width: 75%;
+    max-width: 40%;
     margin: 0 auto;
     border-radius: 15px;
 }
@@ -39,6 +40,11 @@
     width: 50px;
     margin-right: .3rem;
     margin-bottom: .2rem;
+}
+
+.day-header span,
+.day-body p {
+    font-weight: 600;
 }
 
 @media(max-width:750px) {

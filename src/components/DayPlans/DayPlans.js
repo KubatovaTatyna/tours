@@ -7,8 +7,8 @@ const DayPlans = ({dayPlans}) => {
     })
     return ( <div className="DayPlans">
         <div className="plans-container">
-            <h1 className="text-center m-5">Day plans</h1>
-            {day}
+            <h1 className="text-center m-5">Itinerary</h1>
+            <div className="days-container">{day}</div>
         </div>
     </div> );
 }

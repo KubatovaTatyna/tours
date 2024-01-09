@@ -12,7 +12,7 @@ const Details = ({highlights, duration}) => {
                 <div className="d-location col-xs-12 mb-5 mt-5">
                     <img src={location} alt='location' className='w-25'/>
                     <h1>Location</h1>
-                    <p>{highlights}</p>
+                    <p className='new-line'>{highlights}</p>
                 </div>
                 <div className="d-duration col-xs-12 mb-5 mt-5">
                     <img src={durationImg} alt='duration' className='w-25' />

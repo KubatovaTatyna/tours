@@ -9,3 +9,7 @@ html,
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
+
+.new-line {
+    white-space: pre-line;
+}
