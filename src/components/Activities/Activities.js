@@ -1,65 +1,47 @@
-import slide2 from '../../images/actSlide2.jpg';
 import ActivitiesSlide from './ActivitiesSlide/ActivitiesSlide';
-import tours from '../../data/tours';
-import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Activities.css';
+import Carousel from 'react-multi-carousel';
 
-const Activities = () => {
+const Activities = ({ header, smallHeader, section }) => {
+  const tour = section.map(e => {
+    return (
+      <ActivitiesSlide tour={e} key={e.itemId} />
+    )
+  });
 
-    const tourItem = tours.map(tour => {
-        return (<ActivitiesSlide slide={slide2} key={tour.tourId} tour={tour} />)
-    });
 
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
 
-    const sliderSettings = {
-        dots: true,
-        arrows:true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-    }
-
-    return (<div className="Activities">
-        <>
-            <div className='activitiesHeader'>
-                <span>HUNDREDS OF</span>
-                <h1>Activities for Everyoune</h1>
-            </div>
-            <div className='slideContainer'>
-                <Slider {...sliderSettings}>{tourItem}</Slider>
-            </div>
-        </>
-    </div >);
+  return (<div className="Activities">
+    <>
+      <div className='activitiesHeader'>
+        <span>{smallHeader}</span>
+        <h1>{header}</h1>
+      </div>
+      <div className="slideContainer">
+        <Carousel responsive={responsive}>{tour}</Carousel>
+      </div>
+    </>
+  </div >);
 }
 
 export default Activities;

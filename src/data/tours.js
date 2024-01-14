@@ -30,7 +30,7 @@ const tours = {
             duration: '9 days/8 nights',
             dayPlans: [{
                 dayHeader: 'Day 1',
-                dayAbout: 'Pick up from your hotel in Almaty city \n Charyn Canyon "Valley of Castles" \n Free time for walking and taking photos \n Lunch \n Saty Village \n Kaindy Lake$ \n Free time for hiking or horseback riding to the lake \n Dinner and overnight at the guesthouse.\n'
+                dayAbout: 'Pick up from your hotel in Almaty city \n Charyn Canyon "Valley of Castles" \n Free time for walking and taking photos \n Lunch \n Saty Village \n Kaindy Lakes \n Free time for hiking or horseback riding to the lake \n Dinner and overnight at the guesthouse\n'
             },
             {
                 dayHeader: 'Day 2',
@@ -170,7 +170,7 @@ const tours = {
             duration: '6 days/5 nights',
             dayPlans: [{
                 dayHeader: 'Day 1',
-                dayAbout: `Pick up from the International Manas Airport 
+                dayAbout: `Pick up from the Manas International Airport
                 Ala-Archa National Park 
                 Lunch 
                 Burana Tower 
@@ -221,7 +221,8 @@ const tours = {
                 Departure for Jyrgalan Valley 
                 Free time for walking 
                 Departure for Karakol town 
-                Dinner at a restaurant Overnight at a hotel`
+                Dinner at a restaurant 
+                Overnight at a hotel`
             },
             {
                 dayHeader: 'Day 6',
@@ -273,13 +274,13 @@ const tours = {
             itemId: "amazingKyrgyzstan",
             image: image3,
             mainBackground: background3,
-            aboutTour: `During the tour you will explore  Kyrgyzstan’s natural treasures:  Issyk-Kul Lake and Son-Kul Lake. These amazing lakes are the gems of the country, you will be enchanted by the stunning beauty of them. 
+            aboutTour: `During the tour, you will explore  Kyrgyzstan’s natural treasures:  Issyk-Kul Lake and Son-Kul Lake. These amazing lakes are the gems of the country, you will be enchanted by the stunning beauty of them. 
             Son-Kul is the best place for star gazing, you will be able to observe the Milky Way. You will have an opportunity to meet nomad families, immerse into the nomadic life, watch breathtaking sunsets, see lush meadows, beautiful wild flowers and snow-capped mountains, explore picturesque canyons and beautiful gorges, experience horseback riding, watch eagle hunting show, try delicious national cuisine and kymys (mare's milk).`,
             highlights: ' Bishkek city, Ala-Archa National Park, Burana Tower, Chon-Kemin Valley, Son-Kul Lake, Skazka Canyon, Barskoon Gorge, Karakol town, Turgen Gorge, Jyrgalan Valley, Kok-Moinok Canyon. ',
             duration: '6 days/5 nights',
             dayPlans: [{
                 dayHeader: 'Day 1',
-                dayAbout: `Pick up from the International Manas Airport 
+                dayAbout: `Pick up from the Manas International Airport
                 Ala-Archa National Park 
                 Lunch 
                 Burana Tower 
@@ -382,7 +383,7 @@ const tours = {
             duration: '4 days/3 nights',
             dayPlans: [{
                 dayHeader: 'Day 1',
-                dayAbout: `Pick up from the International Manas Airport 
+                dayAbout: `Pick up from the Manas International Airport
                 Departure for the  Chon-Kemin National Park 
                 Visit Burana Tower, the architectural and archeological monument of Medieval ages.
                 Lunch on the way 
@@ -453,7 +454,7 @@ const tours = {
             ]
         },
         {
-            name: "Extended Weekend Getway",
+            name: "Extended Weekend Getaway",
             title: "Extended Weekend Getaway ",
             itemId: "weekendGetaway",
             image: image2,

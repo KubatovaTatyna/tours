@@ -6,7 +6,7 @@ const NavLink = () => {
             <ul>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='#about'>About Us</Link></li>
-                <li><Link to='/contacts'>Contact</Link></li>
+                <li><Link to='#footer'>Contact</Link></li>
             </ul>
         </div>
      );

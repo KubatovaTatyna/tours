@@ -5,6 +5,7 @@ import SliderComponent from "../components/Slider/SliderComponent";
 import Hotels from "../components/Hotels/Hotels";
 import home from "../data/home";
 import tours from "../data/tours";
+import Activities from "../components/Activities/Activities";
 
 const Home = () => {
 
@@ -12,7 +13,7 @@ const Home = () => {
         <Header header={home.header}
             backgroundImage={home.mainBackground}
         />
-        <SliderComponent
+        <Activities
             section={tours.tours}
             header={home.activitiesHeader}
             smallHeader={home.activitiesSmallText} />
@@ -20,8 +21,11 @@ const Home = () => {
             section={home.ourTeam}
             header={home.ourTeamHeader}
             smallHeader={home.ourTeamSmallText} />
+        {/* <OurTeam  ourTeam={home.ourTeam}/> */}
         <Hotels />
         <Feedback />
+        <SliderComponent
+            section={home.gallery} />
         <Footer />
     </div>);
 }
