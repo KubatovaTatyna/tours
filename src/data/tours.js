@@ -3,7 +3,7 @@ import image2 from '../images/slide2.jpg';
 import image3 from '../images/slide3.jpg';
 import image4 from '../images/slide4.jpg';
 import image5 from '../images/slide5.jpg';
-import image6 from '../images/slide6.jpeg';
+import image6 from '../images/slide6.jpg';
 import image6reserve from '../images/slide6.jpg';
 // import background1 from '../images/tour1background.jpg';
 // import background2 from '../images/tour2background.jpg';
