@@ -2,7 +2,7 @@ import Feedback from "../components/Feedback/Feedback";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import SliderComponent from "../components/Slider/SliderComponent";
-import Hotels from "../components/Hotels/Hotels";
+// import Hotels from "../components/Hotels/Hotels";
 import home from "../data/home";
 import tours from "../data/tours";
 import Activities from "../components/Activities/Activities";
@@ -22,10 +22,13 @@ const Home = () => {
             header={home.ourTeamHeader}
             smallHeader={home.ourTeamSmallText} />
         {/* <OurTeam  ourTeam={home.ourTeam}/> */}
-        <Hotels />
+        {/* <Hotels /> */}
+        <div className="activites">
+            <h1 className="text-center mt-5">Activities</h1>
+            <SliderComponent
+                section={home.gallery} />
+        </div>
         <Feedback />
-        <SliderComponent
-            section={home.gallery} />
         <Footer />
     </div>);
 }

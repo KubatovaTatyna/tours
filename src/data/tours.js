@@ -3,7 +3,8 @@ import image2 from '../images/slide2.jpg';
 import image3 from '../images/slide3.jpg';
 import image4 from '../images/slide4.jpg';
 import image5 from '../images/slide5.jpg';
-import image6 from '../images/slide6.jpg';
+import image6 from '../images/slide6.jpeg';
+import image6reserve from '../images/slide6.jpg';
 // import background1 from '../images/tour1background.jpg';
 // import background2 from '../images/tour2background.jpg';
 import background3 from '../images/tour3background.jpg';
@@ -546,7 +547,7 @@ const tours = {
             title: "Ala-Köl Lake ",
             itemId: "alakollake",
             image: image6,
-            mainBackground: image6,
+            mainBackground: image6reserve,
             aboutTour: `Ala-Köl Lake is one of the most beautiful lakes of Kyrgyzstan. It is situated at the altitude of 3532 meters. It is the most popular trekking route in Kyrgyzstan. 
             During this trip, you will visit Issyk-Kul Lake - the pearl of Central Asia, the most picturesque Kok-Moinok and Skazka Canyons, experience horseback riding and watch eagle hunting demonstration.`,
             highlights: `Bishkek city, 
