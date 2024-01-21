@@ -1,17 +1,20 @@
 import './Feedback.css';
-import person1 from '../../images/person1.jpg'
+// import person1 from '../../images/person1.jpg'
 import Blockqoute from './Blockqoute/Blockqoute';
 
-const Feedback = () => {
+const Feedback = ({feedback}) => {
+  const blockqoute = feedback.map(e => {
+    return (
+      <Blockqoute photo={e.photo} name={e.name} text={e.text} />
+    )
+  })
   return (<div className="Feedback">
   <div className="feedbackHeader">
     <span>NETWORK</span>
     <h1>Our Clients</h1>
   </div>
     <div className='blockqouteContainer'>
-      <Blockqoute person={person1} name="Jane Cooper" work="CEO, ABC Corporation"/>
-      <Blockqoute person={person1} name='Alan Jackson' work='CEO, Travelers Community'/>
-      <Blockqoute person={person1} name='Jane Cooper' work='CEO, Go Travel'/>
+      {blockqoute}
     </div>
   </div>);
 }

@@ -1,14 +1,13 @@
 import './Blockqoute.css';
 
-const Blockqoute = ({ person, name, work }) => {
+const Blockqoute = ({ photo, name, text }) => {
     return (<div className="Blockqoute">
         <div className='blockqouteCard'>
-            <div className='qoute'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. consectetur adipiscing elit. nibh lectus feugiat nunc </div>
+            <div className='qoute'>{text}</div>
             <div className='person'>
-                <div><img src={person} alt='alt' /></div>
+                <div className='personPhoto'><img src={photo} alt='alt' /></div>
                 <div>
-                    <h3>{name}</h3>
-                    <span>{work}</span>
+                    <h6>{name}</h6>
                 </div>
             </div>
         </div>

@@ -47,6 +47,15 @@
 .person img {
     margin-right: 2rem;
     border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.personPhoto {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: gray;
 }
 
 .person h3 {

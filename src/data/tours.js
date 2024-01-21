@@ -3,8 +3,8 @@ import image2 from '../images/slide2.jpg';
 import image3 from '../images/slide3.jpg';
 import image4 from '../images/slide4.jpg';
 import image5 from '../images/slide5.jpg';
-import image6 from '../images/slide6.jpg';
-import image6reserve from '../images/slide6.jpg';
+// import image6 from '../images/slide6.jpg';
+import image6reserve from '../images/slide6.jpeg';
 // import background1 from '../images/tour1background.jpg';
 // import background2 from '../images/tour2background.jpg';
 import background3 from '../images/tour3background.jpg';
@@ -148,7 +148,7 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '950$'
+                    price: '970$'
                 },
                 {
                     priceHeader: '3-4 pax',
@@ -156,7 +156,7 @@ const tours = {
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '600$'
+                    price: '630$'
                 },
             ]
         },
@@ -241,7 +241,7 @@ const tours = {
                 'Experienced driver-guide',
                 'Accommodation ',
                 '5 Breakfast',
-                '1 Launch',
+                '1 Lunch',
                 '3 Dinner ',
                 'Entrance fees',
                 'Eagle hunting show',
@@ -360,11 +360,11 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '698$'
+                    price: '730$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '550$'
+                    price: '570$'
                 },
                 {
                     priceHeader: '5-10 pax',
@@ -442,15 +442,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '580$'
+                    price: '550$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '480$'
+                    price: '450$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '380$'
+                    price: '360$'
                 },
             ]
         },
@@ -546,7 +546,7 @@ const tours = {
             name: "Ala-Köl Lake ",
             title: "Ala-Köl Lake ",
             itemId: "alakollake",
-            image: image6,
+            image: image6reserve,
             mainBackground: image6reserve,
             aboutTour: `Ala-Köl Lake is one of the most beautiful lakes of Kyrgyzstan. It is situated at the altitude of 3532 meters. It is the most popular trekking route in Kyrgyzstan. 
             During this trip, you will visit Issyk-Kul Lake - the pearl of Central Asia, the most picturesque Kok-Moinok and Skazka Canyons, experience horseback riding and watch eagle hunting demonstration.`,
@@ -646,7 +646,7 @@ const tours = {
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '420$'
+                    price: '430$'
                 },
             ]
         }

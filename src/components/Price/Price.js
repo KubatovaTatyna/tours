@@ -5,7 +5,7 @@ const Price = ({ prices }) => {
         return (
             <div className="price col-sm-12 mb-4 mt-5">
                 <div className="price-head">{e.priceHeader}</div>
-                <div className="price-body">  <strong>{e.price}</strong>per person</div>
+                <div className="price-body">  <strong>{e.price}</strong> per person</div>
             </div>
         )
     })

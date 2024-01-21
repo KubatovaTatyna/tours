@@ -28,7 +28,7 @@ const Home = () => {
             <SliderComponent
                 section={home.gallery} />
         </div>
-        <Feedback />
+        <Feedback feedback={home.feedback}/>
         <Footer />
     </div>);
 }

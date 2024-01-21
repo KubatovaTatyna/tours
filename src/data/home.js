@@ -16,6 +16,8 @@ import team3 from '../images/team3.jpeg';
 import team4 from '../images/team4.jpeg';
 import team5 from '../images/team5.jpg';
 import team6 from '../images/team6.jpeg';
+import person1 from '../images/person1.jpeg';
+import person3 from '../images/person3.jpeg';
 
 const home = {
     header: 'KYRGYZSTAN',
@@ -99,6 +101,26 @@ const home = {
     },
     {
         image: gallery11,
+    },],
+    feedback: [{
+        name: 'Huynh Thu Dung',
+        text: `Kyrgyzstan and Kazakhstan are fantastic places to visit. Nomad's  Trail Tours was excellent in managing all aspects of our trip. Our trip with Nomad's  Trail to Kyrgyzstan and Kazakhstan was phenomenal. It far exceeded my expectations. Everything was top quality including the accommodations, food, sights, itinerary and outstanding guides and drivers. It was an excellent quality tour for the money. I would highly recommend Ramilya and Mirlan.`,
+        photo: person1
+    },
+    {
+        name: 'Benny',
+        text: `It was our first time visiting Kazakhstan and Kyrgyzstan and a friend recommended Ramilya. From the moment they picked us up from the airport, we've always felt safe and taken care of. They tried to accomodate our requests and ensured that we were as comfortable as can be.
+
+        They took care of us in many ways - ensuring we were well fed even while stopping by their home enroute to Altyn Arashan for supplies. Accomodating our requests - taking us to the best place to purchase local SIM cards for data. Encouraging and physically helping us through the snow to reach the Ala-Kul Lake at Altyn Arashan.
+        
+        It was an unforgettable experience; thank you Ramilya, Samat and Rustam :)`,
+        photo: ''
+    },
+    {
+        name: 'Amir',
+        text: `Samad n zarina did a very good job ensuring me and my friends on our trip to kazakh n kyrgyzstan, they take care of our comfort ,food and samad will stop anywhere when we want to take a photo, a very amazing journey’s and experience here! 
+        5star⭐️ given to them! Would recommend others!`,
+        photo: person3
     },]
 }
 
