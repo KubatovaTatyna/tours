@@ -1,7 +1,8 @@
 .Nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
     padding: 1.3rem 1rem;
 }

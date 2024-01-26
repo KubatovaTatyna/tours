@@ -5,8 +5,8 @@ const NavLink = () => {
         <div className="NavLink">
             <ul>
                 <li><Link to='/'>Home</Link></li>
-                <li><Link to='#about'>About Us</Link></li>
-                <li><Link to='#footer'>Contact</Link></li>
+                <li><a href='#about'>About us</a></li>
+                <li><a href='#footer'>Contact</a></li>
             </ul>
         </div>
      );

@@ -20,7 +20,9 @@ const Home = () => {
         <SliderComponent
             section={home.ourTeam}
             header={home.ourTeamHeader}
-            smallHeader={home.ourTeamSmallText} />
+            smallHeader={home.ourTeamSmallText} 
+            id='about'
+            aboutText={home.aboutText}/>
         {/* <OurTeam  ourTeam={home.ourTeam}/> */}
         {/* <Hotels /> */}
         <div className="activites">
