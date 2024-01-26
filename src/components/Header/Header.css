@@ -5,7 +5,7 @@
     perspective: 1px;
 }
 
-.parallax img {
+.parallax-background {
     position: absolute;
     top: 0;
     left: 0;

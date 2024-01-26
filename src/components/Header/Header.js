@@ -5,7 +5,7 @@ const Header = ({ header, backgroundImage }) => {
 
     return (
         <div className="Header">
-            <header className='parallax'>
+            <header className='header'>
                 <img src={backgroundImage} alt='background img' className="parallax-background" />
                 <div className="header-content">
                     <Nav />

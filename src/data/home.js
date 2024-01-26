@@ -1,15 +1,19 @@
 import background from '../images/headerBackground.jpg';
-import gallery1 from '../images/img1.jpg';
 import gallery2 from '../images/img2.jpg';
 import gallery3 from '../images/img3.jpg';
 import gallery4 from '../images/img4.jpg';
 import gallery5 from '../images/img5.jpg';
-import gallery6 from '../images/img6.jpg';
+import gallery19 from '../images/img19.jpg';
 import gallery7 from '../images/img15.jpg';
 import gallery8 from '../images/img.jpg';
 import gallery9 from '../images/img16.jpg';
 import gallery10 from '../images/img17.jpg';
 import gallery11 from '../images/img18.jpg';
+import gallery20 from '../images/img20.jpg';
+import gallery21 from '../images/img21.jpg';
+import gallery22 from '../images/img22.jpg';
+import gallery23 from '../images/img23.jpg';
+import gallery24 from '../images/img24.jpg';
 import team1 from '../images/team1.jpeg';
 import team2 from '../images/team2.jpeg';
 import team3 from '../images/team3.jpeg';
@@ -33,7 +37,7 @@ const home = {
         itemId: '1',
         class: 'teamImage'
     },
-        {
+    {
         name: 'Zarina',
         position: 'Position',
         image: team1,
@@ -69,41 +73,55 @@ const home = {
         class: 'teamImage'
     }
     ],
-    gallery: [{
-        image: gallery1,
-    },
-    {
-        image: gallery2,
-    },
-    {
-        image: gallery3,
-    },
-    {
-        image: gallery4,
-    },
-    {
-        image: gallery5,
-    },
-    {
-        image: gallery6,
-    },
-    {
-        image: gallery7,
-    },
-    {
-        image: gallery8,
-    },
-    {
-        image: gallery9,
-    },
-    {
-        image: gallery10,
-    },
-    {
-        image: gallery11,
-    },],
+    gallery: [
+        {
+            image: gallery10,
+        },
+        {
+            image: gallery2,
+        },
+        {
+            image: gallery3,
+        },
+        {
+            image: gallery4,
+        },
+        {
+            image: gallery5,
+        },
+        {
+            image: gallery7,
+        },
+        {
+            image: gallery8,
+        },
+        {
+            image: gallery9,
+        },
+        {
+            image: gallery11,
+        },
+        {
+            image: gallery19,
+        },
+        {
+            image: gallery20,
+        },
+        {
+            image: gallery21,
+        },
+        {
+            image: gallery22,
+        },
+        {
+            image: gallery23,
+        },
+        {
+            image: gallery24,
+        }
+    ],
     feedback: [{
-        name: 'Huynh Thu Dung',
+        name: 'Alice Dung',
         text: `Kyrgyzstan and Kazakhstan are fantastic places to visit. Nomad's  Trail Tours was excellent in managing all aspects of our trip. Our trip with Nomad's  Trail to Kyrgyzstan and Kazakhstan was phenomenal. It far exceeded my expectations. Everything was top quality including the accommodations, food, sights, itinerary and outstanding guides and drivers. It was an excellent quality tour for the money. I would highly recommend Ramilya and Mirlan.`,
         photo: person1
     },
