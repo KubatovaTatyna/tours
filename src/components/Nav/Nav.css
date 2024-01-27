@@ -26,6 +26,7 @@
 @media(max-width:850px) {
     .Nav {
         justify-content: space-between;
+        align-items:center;
     }
     .Nav .NavLink ul {
         margin-top: 2rem;
