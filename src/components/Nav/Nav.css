@@ -29,7 +29,6 @@
         align-items:center;
     }
     .Nav .NavLink ul {
-        margin-top: 2rem;
-        width: 300px;
+        width: 250px;
     }
 }
