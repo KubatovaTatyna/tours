@@ -20,14 +20,7 @@ const tours = {
             image: image1,
             mainBackground: image1,
             aboutTour: 'During the tour, you will explore the amazing places of two Central Asian countries, you will visit the most beautiful lakes, picturesque canyons, majestic mountains of Kyrgyzstan and Kazakhstan. You will be able to immerse into the nomadic life, ride horses, watch eagle hunting demonstration, stay for overnight in a yurt, try Kyrgyz and Kazakh national cuisine.  ',
-            highlights: `Pick up from your hotel in Almaty city
-            Charyn Canyon "Valley of Castles"
-            Free time for walking and taking photos 
-            Lunch 
-            Saty Village 
-            Kaindy Lake
-            Free time for hiking or horseback riding to the lake 
-            Dinner and overnight at the guesthouse in Saty Village `,
+            highlights: `Charyn Canyon, Kaindy Lake, The Lower Kolsay Lake, Saty Village in Kazakhstan, Karakol town, Karkyra Valley, Dungan Mosque, Holy Trinity Ortodox Church, Turgen Gorge, Jyrgalan Valley, Karakol Gorge, Karakol Ski Resort, Ak-Suu Kench, hor springs, Jeti-Oguz Gorge, Barskoon Gorge, Skazka Canyon, Son-Kul Lake, Chon-Kemin Valley, Kok-Moinok Canyon, Burana Tower, Bishkek City`,
             duration: '9 days/8 nights',
             dayPlans: [{
                 dayHeader: 'Day 1',
