@@ -9,3 +9,9 @@
     height: 80px;
     margin-bottom: 1rem;
 }
+
+@media(max-width:600px) {
+    .Logo {
+        margin-right: 3rem;
+    }
+}
