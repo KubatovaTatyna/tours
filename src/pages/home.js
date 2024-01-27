@@ -26,7 +26,7 @@ const Home = () => {
         {/* <OurTeam  ourTeam={home.ourTeam}/> */}
         {/* <Hotels /> */}
         <div className="activites">
-            <h1>Gallery</h1>
+            <h1 className='text-center display-1 font-weight-bold'>Gallery</h1>
             <SliderComponent
                 section={home.gallery} />
         </div>
