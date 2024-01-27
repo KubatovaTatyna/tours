@@ -26,6 +26,7 @@
 @media(max-width:850px) {
     .Nav {
         flex-direction: column;
+        justify-content: flex-start;
     }
     .Nav .NavLink ul {
         margin-top: 2rem;
