@@ -26,7 +26,6 @@ const Home = () => {
         {/* <OurTeam  ourTeam={home.ourTeam}/> */}
         {/* <Hotels /> */}
         <div className="activites">
-            <h1 className="text-center mt-5">Activities</h1>
             <SliderComponent
                 section={home.gallery} />
         </div>
