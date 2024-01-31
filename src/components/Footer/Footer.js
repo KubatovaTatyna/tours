@@ -26,7 +26,7 @@ const Footer = () => {
             {/* <Link to='#' className='mr-5 ml-5'>
                 <img src={email} alt='email'/>
             </Link> */}
-            <button onClick={() => window.location = 'mailto:nomadstrailkg@outlook.com'}>
+            <button onClick={() => window.location = 'mailto:nomadstrailtours@outlook.com'}>
                 <img src={email} alt='email' />
             </button>
         </div>
