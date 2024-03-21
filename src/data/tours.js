@@ -141,15 +141,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '970$'
+                    price: '1200$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '800$'
+                    price: '1000$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '630$'
+                    price: '830$'
                 },
             ]
         },
@@ -250,15 +250,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '705$'
+                    price: '850$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '565$'
+                    price: '750$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '465$'
+                    price: '650$'
                 },
             ]
         },
@@ -353,15 +353,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '730$'
+                    price: '870$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '570$'
+                    price: '770$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '450$'
+                    price: '650$'
                 },
             ]
         },
@@ -435,15 +435,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '550$'
+                    price: '650$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '450$'
+                    price: '550$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '360$'
+                    price: '460$'
                 },
             ]
         },
@@ -523,15 +523,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '430$'
+                    price: '530$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '350$'
+                    price: '450$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '280$'
+                    price: '380$'
                 },
             ]
         },
@@ -631,15 +631,15 @@ const tours = {
             price: [
                 {
                     priceHeader: '2 pax',
-                    price: '690$'
+                    price: '790$'
                 },
                 {
                     priceHeader: '3-4 pax',
-                    price: '550$'
+                    price: '650$'
                 },
                 {
                     priceHeader: '5-10 pax',
-                    price: '430$'
+                    price: '530$'
                 },
             ]
         }
